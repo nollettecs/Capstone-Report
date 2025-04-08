@@ -1,4 +1,4 @@
-# 🏠 Housing Affordability Forecasting — Capstone Project
+# 🏠 Analyzing The Rise of Home Prices: A Data-Driven look at Housing Affordability (Capstone Project)
 
 This capstone project uses machine learning techniques to analyze and forecast trends in U.S. housing affordability. By combining datasets related to home prices and household income, the project explores how the affordability gap has evolved — and where it's headed through 2033.
 
@@ -17,7 +17,7 @@ This capstone project uses machine learning techniques to analyze and forecast t
 
 1. **Data Collection:** Datasets from FHFA, FRED, Zillow, and Kaggle.
 2. **Data Cleaning:** Removed unnecessary columns, handled missing values, reshaped ZHVI dataset.
-3. **Feature Engineering:** Extracted `Year` from dates to use as model input.
+3. **Feature Engineering:** Extracted `Year` from dates to use as model input and created Price-to-income Ratio model.
 4. **Modeling:**
    - Polynomial Regression (degree = 2) for Average Sales Price
    - Linear Regression for Income, FHFA HPI, and ZHVI
